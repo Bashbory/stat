@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.myImg {
+    background-image: url("../images/image-header-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    filter: contrast(150%);
+  }
+  
+  .myImg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(97, 52, 125, 0.6);
+  }
+
+  .myImgM {
+    background-image: url("../images/image-header-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    filter: contrast(150%);
+    border-radius:50% ;
+  }
+  
+  .myImgM:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(97, 52, 125, 0.6);
+    
+  }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- tailwind  -->
+  <link rel="stylesheet" href="./dist/output.css">
+  <!-- googlefont -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet"> 
+  <title>Frontend Mentor | Stats preview card component</title>
+  <!-- animatejs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha512-doJrC/ocU8VGVRx3O9981+2aYUn3fuWVWvqLi1U+tA2MWVzsw+NVKq1PrENF03M+TYBP92PnYUlXFH1ZW0FpLw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-mainc">
+
+
+  <div class="container relative flex max-w-screen-lg mx-auto  mt-44 overflow-hidden rounded-lg max-md:flex-col-reverse max-md:text-center 
+  max-md:my-24 max-md:px-4
+  ">
+    <div class="con w-1/2 bg-card pl-14 pr-20 py-16 max-md:w-[100%] max-md:px-6 max-md:rounded-b-lg  ">
+      <h2 class="text-white font-inter font-bold text-3xl wow fadeInDown"data-wow-duration="1s">Get <span class="text-accent">insights </span> that help your business grow.</h2>
+      <p class="text-light mt-8 wow fadeIn " data-wow-duration="1s" data-wow-delay="1s"> Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.</p>
+      <div class="stat flex items-center gap-20 mt-16 font-inter text-white uppercase max-md:flex-col max-md:gap-10">
+        <div class="one wow fadeInLeft"data-wow-duration="1s"data-wow-delay="1s">
+          <p class="font-bold text-xl ">10k+</p>
+          <p class="font-deca  text-light text-[10px] font-thin">companies</p>
+        </div>
+        <div class="two wow fadeInUp "data-wow-duration="1s"data-wow-delay="1s">
+          <p class="font-bold text-xl "> 314</p>
+          <p class="font-deca  text-light text-[10px] font-thin">templates</p>
+        </div>
+        <div class="three wow fadeInRight"data-wow-duration="1s"data-wow-delay="1s">
+          <p class="font-bold text-xl">12M+</p>
+          <p class="font-deca  text-light text-[10px] font-thin">queries</p>
+        </div>
+      </div>
+    </div>
+    <div class="myImg w-1/2 wow fadeIn max-md:myImgM max-md:w-[100%] max-md:h-[300px] max-md:rounded-t-lg  ">
+
+    </div>
+  </div>
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    new WOW().init();
+    </script>
+</body>
+</html>
